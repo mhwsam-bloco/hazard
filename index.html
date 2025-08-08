@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biohazard Symbol | Copy & Learn</title>
+    <meta name="description"
+        content="Learn about the biohazard symbol, its history, usage, and standards. Easily copy the biohazard symbol for your projects. Educational reference for BiohazardSymbol.com.">
+    <meta name="keywords"
+        content="biohazard symbol, biological hazard, Unicode, HTML entity, hazard symbols, safety, medical, laboratory, waste management, transportation">
+    <meta name="author" content="BiohazardSymbol.com">
+    <meta property="og:title" content="Biohazard Symbol | Copy & Learn">
+    <meta property="og:description"
+        content="Learn about the biohazard symbol, its history, usage, and standards. Easily copy the biohazard symbol for your projects.">
+    <meta property="og:url" content="https://biohazardsymbol.com/">
+    <meta property="og:type" content="website">
+    <link rel="canonical" href="https://biohazardsymbol.com/" />
+    <link rel="icon" href="biohazardsymbol.png" type="image/png">
+    <link href="https://cdn.tailwindcss.com" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#5D5CDE',
+                        secondary: '#F5B041',
+                        light: {
+                            bg: '#FFFFFF',
+                            text: '#333333',
+                            card: '#F8F9FA'
+                        },
+                        dark: {
+                            bg: '#181818',
+                            text: '#E5E5E5',
+                            card: '#262626'
+                        }
+                    },
+                }
+            }
+        }
+    </script>
+    <style>
+        .copy-animation {
+            animation: pulse 0.5s;
+        }
+
+        @keyframes pulse {
+            0% {
+                transform: scale(1);
+            }
+
+            50% {
+                transform: scale(1.05);
+            }
+
+            100% {
+                transform: scale(1);
+            }
+        }
+
+        .biohazard-symbol {
+            font-size: 8rem;
+            line-height: 1;
+            display: inline-block;
+            transition: transform 0.3s ease;
+        }
+
+        .biohazard-symbol:hover {
+            transform: scale(1.1);
+            cursor: pointer;
+        }
+
+        .toast {
+            position: fixed;
+            bottom: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            padding: 10px 20px;
+            background-color: #5D5CDE;
+            color: white;
+            border-radius: 4px;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+            z-index: 100;
+        }
+
+        .toast.show {
+            opacity: 1;
+        }
+    </style>
+</head>
+
+<body
+    class="antialiased bg-light-bg dark:bg-dark-bg text-light-text dark:text-dark-text min-h-screen transition-colors duration-200">
+    <div id="toast" class="toast">Symbol copied to clipboard!</div>
+
+    <header class="py-6 px-4 sm:px-6 lg:px-8 border-b border-gray-200 dark:border-gray-800">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-2xl sm:text-3xl font-bold text-primary">Biohazard<span
+                    class="text-black dark:text-white">Symbol.com</span></h1>
+            <button id="theme-toggle"
+                class="p-2 rounded-full hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 hidden dark:block" fill="none"
+                    viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 block dark:hidden" fill="none"
+                    viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" />
+                </svg>
+            </button>
+        </div>
+    </header>
+
+    <main class="container mx-auto px-4 sm:px-6 lg:px-8 py-12">
+        <section class="max-w-4xl mx-auto text-center mb-16">
+            <h2 class="text-3xl sm:text-4xl font-bold mb-6">Copy the Biohazard Symbol</h2>
+            <p class="text-lg mb-8 text-gray-600 dark:text-gray-300">Click on the symbol to copy it to your clipboard
+            </p>
+
+            <div class="bg-light-card dark:bg-dark-card p-8 rounded-lg shadow-sm mb-4">
+                <div id="symbol" class="biohazard-symbol" title="Click to copy">☣</div>
+                <div class="flex justify-center gap-6 mt-6">
+                    <div class="text-center">
+                        <div class="text-xl mb-2 font-semibold">HTML Entity</div>
+                        <code class="bg-gray-100 dark:bg-gray-800 px-3 py-1 rounded cursor-pointer" id="html-entity"
+                            title="Click to copy">&amp;#9763;</code>
+                    </div>
+                    <div class="text-center">
+                        <div class="text-xl mb-2 font-semibold">Unicode</div>
+                        <code class="bg-gray-100 dark:bg-gray-800 px-3 py-1 rounded cursor-pointer" id="unicode"
+                            title="Click to copy">U+2623</code>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="max-w-4xl mx-auto mb-16">
+            <h2 class="text-3xl font-bold mb-6 text-center">About the Biohazard Symbol</h2>
+            <div class="bg-light-card dark:bg-dark-card p-6 rounded-lg shadow-sm">
+                <div class="prose dark:prose-invert max-w-none">
+                    <h3 class="text-xl font-semibold mb-3 text-primary">Origin & History</h3>
+                    <p class="mb-4">The biohazard symbol was developed by the Dow Chemical Company in 1966 for their
+                        containment products. Charles Baldwin, an environmental health engineer working for Dow at the
+                        time, contributed to its development. In 1967, the Centers for Disease Control (CDC) registered
+                        the symbol with the U.S. Patent and Trademark Office.</p>
+
+                    <h3 class="text-xl font-semibold mb-3 text-primary">Design Purpose</h3>
+                    <p class="mb-4">The symbol was designed to be highly recognizable and memorable, even to those who
+                        have never seen it before. It does not resemble any existing religious or cultural symbols to
+                        avoid confusion. The distinctive trefoil design consists of three interconnected circles,
+                        symbolizing a biological threat.</p>
+
+                    <h3 class="text-xl font-semibold mb-3 text-primary">Usage & Meaning</h3>
+                    <p class="mb-4">The biohazard symbol identifies biological substances that pose a health risk,
+                        including:</p>
+                    <ul class="list-disc pl-6 mb-4">
+                        <li>Biological waste and contaminated materials</li>
+                        <li>Medical waste</li>
+                        <li>Laboratories handling infectious agents</li>
+                        <li>Areas with biological hazards</li>
+                        <li>Equipment contaminated with biohazardous materials</li>
+                    </ul>
+
+                    <h3 class="text-xl font-semibold mb-3 text-primary">Color Standards</h3>
+                    <p>The official biohazard symbol is traditionally black on a yellow/orange background. This
+                        high-contrast combination ensures visibility and recognition even in poor lighting conditions.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="max-w-4xl mx-auto mb-16">
+            <h2 class="text-3xl font-bold mb-6 text-center">Standardized Hazard Symbol Systems</h2>
+            <div class="bg-light-card dark:bg-dark-card p-6 rounded-lg shadow-sm mb-8">
+                <h3 class="text-xl font-semibold mb-4 text-primary">List of Standardized Hazard Symbol Systems</h3>
+                <div class="overflow-x-auto">
+                    <table class="min-w-full border-collapse">
+                        <thead>
+                            <tr class="bg-gray-100 dark:bg-gray-800">
+                                <th class="px-4 py-2 text-left border border-gray-300 dark:border-gray-700">Standard
+                                </th>
+                                <th class="px-4 py-2 text-left border border-gray-300 dark:border-gray-700">Warning Type
+                                </th>
+                                <th class="px-4 py-2 text-left border border-gray-300 dark:border-gray-700">Scope</th>
+                                <th class="px-4 py-2 text-left border border-gray-300 dark:border-gray-700">Audience
+                                </th>
+                                <th class="px-4 py-2 text-left border border-gray-300 dark:border-gray-700">Status</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="hover:bg-gray-50 dark:hover:bg-gray-900">
+                                <td class="px-4 py-2 border border-gray-300 dark:border-gray-700">ISO 7010 warning
+                                    symbols</td>
+                                <td class="px-4 py-2 border border-gray-300 dark:border-gray-700">Warning</td>
+                                <td class="px-4 py-2 border border-gray-300 dark:border-gray-700">General purpose
+                                    warning symbols</td>
+                                <td class="px-4 py-2 border border-gray-300 dark:border-gray-700">The general public
+                                </td>
+                                <td class="px-4 py-2 border border-gray-300 dark:border-gray-700">Currently used</td>
+                            </tr>
+                            <tr class="hover:bg-gray-50 dark:hover:bg-gray-900">
+                                <td class="px-4 py-2 border border-gray-300 dark:border-gray-700">GHS hazard pictograms
+                                </td>
+                                <td class="px-4 py-2 border border-gray-300 dark:border-gray-700">Warning</td>
+                                <td class="px-4 py-2 border border-gray-300 dark:border-gray-700">The labelling of
+                                    containers and for workplace hazard warnings, and for use during the transport of
+                                    dangerous goods</td>
+                                <td class="px-4 py-2 border border-gray-300 dark:border-gray-700">The general public,
+                                    the workplace, and material transport personnel</td>
+                                <td class="px-4 py-2 border border-gray-300 dark:border-gray-700">Currently used</td>
+                            </tr>
+                            <tr class="hover:bg-gray-50 dark:hover:bg-gray-900">
+                                <td class="px-4 py-2 border border-gray-300 dark:border-gray-700">NFPA 704 Safety Square
+                                </td>
+                                <td class="px-4 py-2 border border-gray-300 dark:border-gray-700">Warning</td>
+                                <td class="px-4 py-2 border border-gray-300 dark:border-gray-700">To quickly and easily
+                                    identify the risks posed by hazardous materials</td>
+                                <td class="px-4 py-2 border border-gray-300 dark:border-gray-700">Emergency response
+                                    personnel</td>
+                                <td class="px-4 py-2 border border-gray-300 dark:border-gray-700">Currently used in the
+                                    US</td>
+                            </tr>
+                            <tr class="hover:bg-gray-50 dark:hover:bg-gray-900">
+                                <td class="px-4 py-2 border border-gray-300 dark:border-gray-700">Hazardous Materials
+                                    Identification System</td>
+                                <td class="px-4 py-2 border border-gray-300 dark:border-gray-700">Warning</td>
+                                <td class="px-4 py-2 border border-gray-300 dark:border-gray-700">A numerical hazard
+                                    rating used to identify the risks posed by hazardous materials</td>
+                                <td class="px-4 py-2 border border-gray-300 dark:border-gray-700">Employers and workers
+                                    who handle and are exposed to hazardous chemicals</td>
+                                <td class="px-4 py-2 border border-gray-300 dark:border-gray-700">Currently used in the
+                                    US</td>
+                            </tr>
+                            <tr class="hover:bg-gray-50 dark:hover:bg-gray-900">
+                                <td class="px-4 py-2 border border-gray-300 dark:border-gray-700">EU Directive
+                                    67/548/EEC</td>
+                                <td class="px-4 py-2 border border-gray-300 dark:border-gray-700">Warning</td>
+                                <td class="px-4 py-2 border border-gray-300 dark:border-gray-700">The labelling of
+                                    containers in the EU, used until 2017</td>
+                                <td class="px-4 py-2 border border-gray-300 dark:border-gray-700">Mixtures of chemicals
+                                    that are placed on the market in the European Union</td>
+                                <td class="px-4 py-2 border border-gray-300 dark:border-gray-700">No longer used</td>
+                            </tr>
+                            <tr class="hover:bg-gray-50 dark:hover:bg-gray-900">
+                                <td class="px-4 py-2 border border-gray-300 dark:border-gray-700">WHMIS 1988</td>
+                                <td class="px-4 py-2 border border-gray-300 dark:border-gray-700">Warning</td>
+                                <td class="px-4 py-2 border border-gray-300 dark:border-gray-700">Workplace hazard
+                                    warnings used in Canada, mostly replaced by GHS as of 2018</td>
+                                <td class="px-4 py-2 border border-gray-300 dark:border-gray-700">Workplace Hazards in
+                                    Canada</td>
+                                <td class="px-4 py-2 border border-gray-300 dark:border-gray-700">No longer used, except
+                                    biological hazard symbol</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div class="bg-light-card dark:bg-dark-card p-6 rounded-lg shadow-sm">
+                <h3 class="text-xl font-semibold mb-4 text-primary">Examples of Common Hazard Symbols</h3>
+                <div class="overflow-x-auto">
+                    <table class="min-w-full border-collapse">
+                        <thead>
+                            <tr class="bg-gray-100 dark:bg-gray-800">
+                                <th class="px-4 py-2 text-left border border-gray-300 dark:border-gray-700">Warning Type
+                                </th>
+                                <th class="px-4 py-2 text-left border border-gray-300 dark:border-gray-700">ISO 7010
+                                </th>
+                                <th class="px-4 py-2 text-left border border-gray-300 dark:border-gray-700">ANSI Z535
+                                    (United States)</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="hover:bg-gray-50 dark:hover:bg-gray-900">
+                                <td class="px-4 py-2 border border-gray-300 dark:border-gray-700">General warning sign
+                                </td>
+                                <td class="px-4 py-2 border border-gray-300 dark:border-gray-700">ISO 7010 W001</td>
+                                <td class="px-4 py-2 border border-gray-300 dark:border-gray-700">--</td>
+                            </tr>
+                            <tr class="hover:bg-gray-50 dark:hover:bg-gray-900">
+                                <td class="px-4 py-2 border border-gray-300 dark:border-gray-700">Flammable material
+                                </td>
+                                <td class="px-4 py-2 border border-gray-300 dark:border-gray-700">ISO 7010 W021</td>
+                                <td class="px-4 py-2 border border-gray-300 dark:border-gray-700">USA flammable</td>
+                            </tr>
+                            <tr class="hover:bg-gray-50 dark:hover:bg-gray-900">
+                                <td class="px-4 py-2 border border-gray-300 dark:border-gray-700">Explosive materials
+                                </td>
+                                <td class="px-4 py-2 border border-gray-300 dark:border-gray-700">ISO 7010 W002</td>
+                                <td class="px-4 py-2 border border-gray-300 dark:border-gray-700">USA explosion hazard
+                                </td>
+                            </tr>
+                            <tr class="hover:bg-gray-50 dark:hover:bg-gray-900">
+                                <td class="px-4 py-2 border border-gray-300 dark:border-gray-700">Toxic material</td>
+                                <td class="px-4 py-2 border border-gray-300 dark:border-gray-700">ISO 7010 W016</td>
+                                <td class="px-4 py-2 border border-gray-300 dark:border-gray-700">Poison</td>
+                            </tr>
+                            <tr class="hover:bg-gray-50 dark:hover:bg-gray-900">
+                                <td class="px-4 py-2 border border-gray-300 dark:border-gray-700">Corrosive substance
+                                </td>
+                                <td class="px-4 py-2 border border-gray-300 dark:border-gray-700">ISO 7010 W023</td>
+                                <td class="px-4 py-2 border border-gray-300 dark:border-gray-700">USA corrosive material
+                                </td>
+                            </tr>
+                            <tr class="hover:bg-gray-50 dark:hover:bg-gray-900">
+                                <td class="px-4 py-2 border border-gray-300 dark:border-gray-700">Electricity hazard
+                                </td>
+                                <td class="px-4 py-2 border border-gray-300 dark:border-gray-700">ISO 7010 W012</td>
+                                <td class="px-4 py-2 border border-gray-300 dark:border-gray-700">USA electric shock
+                                </td>
+                            </tr>
+                            <tr class="hover:bg-gray-50 dark:hover:bg-gray-900">
+                                <td class="px-4 py-2 border border-gray-300 dark:border-gray-700">Radioactive material
+                                    or ionizing radiation</td>
+                                <td class="px-4 py-2 border border-gray-300 dark:border-gray-700">ISO 7010 W003</td>
+                                <td class="px-4 py-2 border border-gray-300 dark:border-gray-700">USA radiation hazard
+                                </td>
+                            </tr>
+                            <tr class="hover:bg-gray-50 dark:hover:bg-gray-900 bg-secondary/10">
+                                <td class="px-4 py-2 border border-gray-300 dark:border-gray-700 font-semibold">
+                                    Biological hazard</td>
+                                <td class="px-4 py-2 border border-gray-300 dark:border-gray-700 font-semibold">ISO 7010
+                                    W009</td>
+                                <td class="px-4 py-2 border border-gray-300 dark:border-gray-700 font-semibold">US ANSI
+                                    Biohazard Symbol</td>
+                            </tr>
+                            <tr class="hover:bg-gray-50 dark:hover:bg-gray-900">
+                                <td class="px-4 py-2 border border-gray-300 dark:border-gray-700">Floor-level obstacle
+                                </td>
+                                <td class="px-4 py-2 border border-gray-300 dark:border-gray-700">ISO 7010 W007</td>
+                                <td class="px-4 py-2 border border-gray-300 dark:border-gray-700"></td>
+                            </tr>
+                            <tr class="hover:bg-gray-50 dark:hover:bg-gray-900">
+                                <td class="px-4 py-2 border border-gray-300 dark:border-gray-700">Drop or fall hazard
+                                </td>
+                                <td class="px-4 py-2 border border-gray-300 dark:border-gray-700">ISO 7010 W008</td>
+                                <td class="px-4 py-2 border border-gray-300 dark:border-gray-700"></td>
+                            </tr>
+                            <tr class="hover:bg-gray-50 dark:hover:bg-gray-900">
+                                <td class="px-4 py-2 border border-gray-300 dark:border-gray-700">Slippery surface</td>
+                                <td class="px-4 py-2 border border-gray-300 dark:border-gray-700">ISO 7010 W011</td>
+                                <td class="px-4 py-2 border border-gray-300 dark:border-gray-700"></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <section class="max-w-4xl mx-auto">
+            <h2 class="text-3xl font-bold mb-6 text-center">Common Applications</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div class="bg-light-card dark:bg-dark-card p-6 rounded-lg shadow-sm">
+                    <h3 class="text-xl font-semibold mb-3">Medical & Laboratory</h3>
+                    <p>Medical facilities, research laboratories, and healthcare settings use the biohazard symbol to
+                        mark containers, bags, rooms, and equipment that contain or are contaminated with biological
+                        substances that could pose a threat to health.</p>
+                </div>
+                <div class="bg-light-card dark:bg-dark-card p-6 rounded-lg shadow-sm">
+                    <h3 class="text-xl font-semibold mb-3">Waste Management</h3>
+                    <p>Biohazardous waste containers, such as sharps containers and medical waste bags, are labeled with
+                        the symbol to ensure proper handling and disposal of potentially infectious materials.</p>
+                </div>
+                <div class="bg-light-card dark:bg-dark-card p-6 rounded-lg shadow-sm">
+                    <h3 class="text-xl font-semibold mb-3">Transportation</h3>
+                    <p>Vehicles and containers transporting biohazardous materials display the symbol to alert handlers
+                        and emergency responders to the potential dangers of the contents.</p>
+                </div>
+                <div class="bg-light-card dark:bg-dark-card p-6 rounded-lg shadow-sm">
+                    <h3 class="text-xl font-semibold mb-3">Digital & Creative</h3>
+                    <p>The biohazard symbol has also been adopted in digital media, games, and creative works to
+                        symbolize danger, contamination, or biological threats in fictional contexts.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-gray-100 dark:bg-gray-900 py-8 mt-16">
+        <div class="container mx-auto px-4 text-center">
+            <p class="text-gray-600 dark:text-gray-400">&copy; 2025 BiohazardSymbol.com • Educational Reference</p>
+            <p class="text-sm text-gray-500 dark:text-gray-500 mt-2">This website is intended for informational purposes
+                only.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Dark mode toggle
+        if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+            document.documentElement.classList.add('dark');
+        }
+
+        window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', event => {
+            if (event.matches) {
+                document.documentElement.classList.add('dark');
+            } else {
+                document.documentElement.classList.remove('dark');
+            }
+        });
+
+        document.getElementById('theme-toggle').addEventListener('click', function () {
+            document.documentElement.classList.toggle('dark');
+        });
+
+        // Copy functionality
+        function copyToClipboard(text) {
+            navigator.clipboard.writeText(text).then(() => {
+                showToast();
+            }).catch(err => {
+                console.error('Could not copy text: ', err);
+            });
+        }
+
+        function showToast() {
+            const toast = document.getElementById('toast');
+            toast.classList.add('show');
+            setTimeout(() => {
+                toast.classList.remove('show');
+            }, 2000);
+        }
+
+        // Add copy event listeners
+        document.getElementById('symbol').addEventListener('click', function () {
+            copyToClipboard('☣');
+            this.classList.add('copy-animation');
+            setTimeout(() => {
+                this.classList.remove('copy-animation');
+            }, 500);
+        });
+
+        document.getElementById('html-entity').addEventListener('click', function () {
+            copyToClipboard('&#9763;');
+            showToast();
+        });
+
+        document.getElementById('unicode').addEventListener('click', function () {
+            copyToClipboard('U+2623');
+            showToast();
+        });
+    </script>
+</body>
+
+</html>
